@@ -52,9 +52,30 @@ img{
 
 .table{
     grid-area: t;
-    padding-left: 20px
+    width: 600px;
 }
 
+th{
+    border-bottom: solid black 1px;
+    
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+tr{
+    line-height: 2;
+}
+
+p{
+    padding-top: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+  }
 
 .grid{
     display: grid;
